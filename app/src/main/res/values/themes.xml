@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calendar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:spinnerItemStyle">@style/mySpinnerItemSelectedStyle</item>
+    </style>
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/graywhite</item>
+        <item name="colorPrimary">@color/graywhite</item>
+    </style>
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/graywhite</item>
+        <item name="android:weekNumberColor">@color/graywhite</item>
+        <item name="android:headerYearTextAppearance">@color/graywhite</item>
+    </style>
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/graywhite</item>
+    </style>
+    <style name="Theme.Calendar" parent="Base.Theme.Calendar" />
+    <style name="mySpinnerItemSelectedStyle" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+        <item name="android:textColor">@color/graywhite</item>
+    </style>
+</resources>

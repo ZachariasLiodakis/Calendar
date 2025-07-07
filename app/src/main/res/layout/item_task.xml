@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/graphite">
+
+    <TextView
+        android:id="@+id/tvTaskId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_id2"
+        android:textColor="@color/graywhite"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TaskIdvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id_value"
+        android:textColor="@color/graywhite"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvShortName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Short Name:"
+        android:textColor="@color/graywhite"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ShortNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/graywhite"
+        android:text="@string/name_value"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:text="  Status:"
+        android:textColor="@color/graywhite"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/StatusValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:textColor="@color/graywhite"
+        android:textSize="15sp" />
+
+</LinearLayout>

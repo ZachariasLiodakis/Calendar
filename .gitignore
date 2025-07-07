@@ -1,0 +1,41 @@
+# Built files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Log files
+*.log
+
+# Android Studio/IntelliJ
+*.iml
+.gradle/
+.idea/
+build/
+captures/
+.navigation/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Local configuration files
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Gradle
+!gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties

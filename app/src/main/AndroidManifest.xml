@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Calendar"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Activities.ui.ExportTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ui.TaskDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ui.ViewTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ui.DeleteTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ui.CalendarActivity"
+            android:exported="true"
+            android:label="@string/CalendarActivity"
+            android:theme="@style/Theme.Calendar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".Services.TaskService"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:name=".Activities.ui.AddTaskActivity"
+            android:exported="false" />
+        <provider
+            android:name=".TaskContentProvider"
+            android:authorities="com.example.calendar.provider"
+            android:exported="true"
+        android:grantUriPermissions="true">
+    </provider>
+    </application>
+
+</manifest>
