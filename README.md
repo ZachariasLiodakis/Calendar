@@ -1,3 +1,4 @@
+![Daily Task Manager](Images/Daily%20Task%20Manager.png)
 # Daily Task Manager Android App
 
 ## 📱 Overview
@@ -87,11 +88,16 @@ This Android application allows users to create, manage, and monitor their daily
 ---
 
 ## 📸 Screenshots
-- Task creation form.
-- Task deletion form.
-- Task details screen.
-- Google Maps integration.
-- Exported TXT file example.
+### Task creation form:
+![Task Creation](Images/Task%20Creation.png)
+### Task deletion form:
+![Task Deletion](Images/Task%20Deletion.png)
+### Task details screen:
+![Task Overview](Images/Task%20Overview.png)
+### Google Maps integration:
+![Google Maps](Images/Google%20Maps.png)
+### Exported TXT file example:
+![Task Exporting](Images/Task%20Exporting.png)
 
 ---
 
